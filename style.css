@@ -1,0 +1,100 @@
+/* Global Styles */
+body {
+  background-color: #FFFFF0; /* Ivory background */
+  color: #191970; /* Midnight Blue text */
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Headers */
+header {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Cinzel Decorative', serif;
+  color: #DAA520; /* Golden Accent */
+}
+
+h1, h2 {
+  margin: 10px 0;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  margin: 0;
+  background-color: #191970; /* Midnight Blue bar */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFFFF0; /* Ivory text */
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #DAA520; /* Gold hover effect */
+}
+
+/* Chapter Images */
+.chapter-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 80%;
+  height: auto;
+  border: 3px solid #DAA520;
+  border-radius: 5px;
+}
+
+/* Floated Optional Images */
+.float-image {
+  float: right;
+  margin: 10px;
+  max-width: 250px;
+  height: auto;
+  border: 2px solid #191970;
+  border-radius: 5px;
+}
+
+/* Chapter Text */
+.chapter-text {
+  margin: 20px;
+  font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+  background-color: #191970;
+  color: #FFFFF0;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #DAA520;
+  text-decoration: none;
+}
+
+footer nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+  margin-top: 10px;
+}
+
+footer nav ul li a {
+  color: #FFFFF0;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  color: #DAA520;
+}
